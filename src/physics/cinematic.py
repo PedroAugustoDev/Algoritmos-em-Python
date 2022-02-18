@@ -1,4 +1,4 @@
-# Basics cinematics funtion in python ||
+# Basics cinematics funtion in python 1.0.0
 
 
 # Find the average speed of a particle in Python
@@ -15,3 +15,8 @@ def distance(speed, time):
 
 def time(distance, speed):
   return distance / speed
+
+
+def min_to_sec(minutes):
+  return 60 * minutes
+
