@@ -8,3 +8,14 @@ alguns dos algoritmos das aulas de **Algoritmos e Lógica de Programação.**
   <li>Olá mundo</li>
   <li>Menor número de um vetor</li>
   <li>Maior número de um vetor</li>
+
+<h4>Lista de módulos de algoritmos</h4>
+<!--ts-->
+   [Básico]
+      * [Máximo valor de um vetor]
+      * [Mínimo valor de um vetor]
+      * [Média de um vetor]
+      * [Soma de dois números]
+     [Física]
+      * [cinemática]
+<!--te-->
