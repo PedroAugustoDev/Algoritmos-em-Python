@@ -10,7 +10,7 @@ alguns dos algoritmos das aulas de **Algoritmos e Lógica de Programação.**
   <li>Maior número de um vetor</li>
 
 <h4>Lista de módulos de algoritmos</h4>
-<!--ts-->
+<table>
    [Básico]
       * [Máximo valor de um vetor]
       * [Mínimo valor de um vetor]
@@ -18,4 +18,4 @@ alguns dos algoritmos das aulas de **Algoritmos e Lógica de Programação.**
       * [Soma de dois números]
      [Física]
       * [cinemática]
-<!--te-->
+</table>
