@@ -33,13 +33,27 @@ def variacao_tempo(d, v):
   return d/v
 
 
+def converter(unidade, saida, modulo):
+  if unidade == "km/h":
+    if saida == "m/s": return str(modulo / 3.6) + "m/s"
+    elif saida == "no": return str(1.852 * modulo) + "nós"
+    else: return 0
+  elif unidade == "m/s":
+    if saida == "km/h": return str(modulo * 3.6) + "km/h"
+    elif saida == "no": return str(1852 * modulos) + "m/s"
+    else: return 0
+  else:
+    if saida == "km/h": return str(1.852 * modulo) + "km/h"
+    elif saida == "m/s": return str(1852 * modulos) + "m/s"
+    else: return 0
+
+
 # Dado o seguinte problema
 #  Um móvel percorreu um trjeto ABCD, no sentido de A para D.
 #  No primeiro trecho AB, ele demorou 30min (50km), no segundo, BC, 
 #  demorou 1h e a velocidade média foi de 60km/h. no Trecho CD foi com 80km/h
 #  a uma distancia de 40km. Determine a velocidade escalar média de todo o
 #  percurso, desde A até D.
-#
 
 
 clear()
